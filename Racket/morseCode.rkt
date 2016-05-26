@@ -24,9 +24,9 @@
 (define dot (circle 5 "solid" "black"))
 (define dash (rectangle 20 10 "solid" "black"))
 
-;;-------------------------------
-; Define Morse Code for NUMBERS.
-;;-------------------------------
+;;--------------------------------------
+; Define Morse Code Symbols for NUMBERS.
+;;--------------------------------------
 (define ONE (hc-append 4 dot dash dash dash dash))
 (define TWO (hc-append 4 dot dot dash dash dash))
 (define THREE (hc-append 4 dot dot dot dash dash))
@@ -38,9 +38,9 @@
 (define NINE (hc-append 4 dash dash dash dash dot))
 (define ZERO (hc-append 4 dash dash dash dash dash))
 
-;;---------------------------------
-; Define Morse Code for ALPHABETS.
-;;---------------------------------
+;;----------------------------------------
+; Define Morse Code Symbols for ALPHABETS.
+;;----------------------------------------
 (define A (hc-append 4 dot dash))
 (define B (hc-append 4 dash dot dot dot))
 (define C (hc-append 4 dash dot dash dot))
@@ -68,9 +68,9 @@
 (define Y (hc-append 4 dash dot dash dash))
 (define Z (hc-append 4 dash dash dot dot))
 
-;;------------------------------------
-; Define Morse Code for PUNTUCATIONS.
-;;------------------------------------
+;;-------------------------------------------
+; Define Morse Code Symbols for PUNTUCATIONS.
+;;-------------------------------------------
 (define ESCAPE (hc-append 4 dash dash dash dash dot dot))
 (define DIVIDE (hc-append 4 dot dot dot dot dash dash))
 (define OSQBRAC (hc-append 4 dot dash dash dot dot dot))
@@ -104,9 +104,9 @@
 (define EQUAL (hc-append 4 dash dash dash dot dash))
 (define STAR (hc-append 4 dash dot dot dash dash))
 
-;;----------------------------------------------------------
-; Convert alphabet, number and punctuation into morse code.
-;;----------------------------------------------------------
+;;-----------------------------------------------------------------
+; Convert alphabet, number and punctuation into morse code symbols.
+;;-----------------------------------------------------------------
 (define (encode letter)
   (cond [(string-ci=? (~a letter) "1") (print ONE) (display "    ")]
         [(string-ci=? (~a letter) "2") (print TWO) (display "    ")]
@@ -176,6 +176,80 @@
         [(string=? (~a letter) "+") (print PLUS) (display "    ")]
         [(string=? (~a letter) "=") (print EQUAL) (display "    ")]
         [(string=? (~a letter) "*") (print STAR) (display "    ")]
+        [else (display letter)]))
+
+;;--------------------------------------------------------------------------
+; Convert alphabet, number and punctuation into morse code (dots and dashes.
+;;--------------------------------------------------------------------------
+(define (encodeData letter)
+  (cond [(string=? (~a letter) "1") (display ".----")]
+        [(string=? (~a letter) "2") (display "..---")]
+        [(string=? (~a letter) "3") (display "...--")]
+        [(string=? (~a letter) "4") (display "....-")]
+        [(string=? (~a letter) "5") (display ".....")]
+        [(string=? (~a letter) "6") (display "-....")]
+        [(string=? (~a letter) "7") (display "--...")]
+        [(string=? (~a letter) "8") (display "---..")]
+        [(string=? (~a letter) "9") (display "----.")]
+        [(string=? (~a letter) "0") (display "-----")]
+        [(string-ci=? (~a letter) "a") (display ".-")]
+        [(string-ci=? (~a letter) "b") (display "-...")]
+        [(string-ci=? (~a letter) "c") (display "-.-.")]
+        [(string-ci=? (~a letter) "d") (display "-..")]
+        [(string-ci=? (~a letter) "e") (display ".")]
+        [(string-ci=? (~a letter) "f") (display "..-.")]
+        [(string-ci=? (~a letter) "g") (display "--.")]
+        [(string-ci=? (~a letter) "h") (display "....")]
+        [(string-ci=? (~a letter) "i") (display "..")]
+        [(string-ci=? (~a letter) "j") (display ".---")]
+        [(string-ci=? (~a letter) "k") (display "-.-.")]
+        [(string-ci=? (~a letter) "l") (display ".-..")]
+        [(string-ci=? (~a letter) "m") (display "--")]
+        [(string-ci=? (~a letter) "n") (display "-.")]
+        [(string-ci=? (~a letter) "o") (display "---")]
+        [(string-ci=? (~a letter) "p") (display ".--.")]
+        [(string-ci=? (~a letter) "q") (display "--.-")]
+        [(string-ci=? (~a letter) "r") (display ".-.")]
+        [(string-ci=? (~a letter) "s") (display "...")]
+        [(string-ci=? (~a letter) "t") (display "-")]
+        [(string-ci=? (~a letter) "u") (display "..-")]
+        [(string-ci=? (~a letter) "v") (display "...-")]
+        [(string-ci=? (~a letter) "w") (display ".--")]
+        [(string-ci=? (~a letter) "x") (display "-..-")]
+        [(string-ci=? (~a letter) "y") (display "-.--")]
+        [(string-ci=? (~a letter) "z") (display "--..")]
+        [(string=? (~a letter) "\\") (display "----..")]
+        [(string=? (~a letter) "/") (display "....--")]
+        [(string=? (~a letter) "[") (display ".--...")]
+        [(string=? (~a letter) "]") (display "-..---")]
+        [(string=? (~a letter) "<") (display "--..--")]
+        [(string=? (~a letter) ">") (display "..--..")]
+        [(string=? (~a letter) "(") (display "---...")]
+        [(string=? (~a letter) ")") (display "...---")]
+        [(string=? (~a letter) "}") (display "--..-")]
+        [(string=? (~a letter) "{") (display "..--.")]
+        [(string=? (~a letter) ".") (display ".-----")]
+        [(string=? (~a letter) ",") (display "-.....")]
+        [(string=? (~a letter) "_") (display "----.-")]
+        [(string=? (~a letter) "|") (display "....-.")]
+        [(string=? (~a letter) "?") (display "-.----")]
+        [(string=? (~a letter) "!") (display ".-....")]
+        [(string=? (~a letter) ";") (display "-....-")]
+        [(string=? (~a letter) ":") (display ".----.")]
+        [(string=? (~a letter) "-") (display ".---.")]
+        [(string=? (~a letter) "$") (display "..----")]
+        [(string=? (~a letter) "%") (display "...-.-")]
+        [(string=? (~a letter) "\"") (display "...--.")]
+        [(string=? (~a letter) "@") (display "---..-")]
+        [(string=? (~a letter) "'") (display "..-...")]
+        [(string=? (~a letter) "`") (display "--.---")]
+        [(string=? (~a letter) "^") (display "-...--")]
+        [(string=? (~a letter) "~") (display "---.--")]
+        [(string=? (~a letter) "#") (display "..---.")]
+        [(string=? (~a letter) "&") (display ".---..")]
+        [(string=? (~a letter) "+") (display "-...-")]
+        [(string=? (~a letter) "=") (display "---.-")]
+        [(string=? (~a letter) "*") (display "-..--")]
         [else (display letter)]))
 
 ;;---------------------------------------------------------
@@ -252,9 +326,9 @@
         [(string=? (~a word) "-..--") (display "*")]
         [else (display word)]))
 
-;;--------------------------------
-; Start Encoding into Morse Code.
-;;--------------------------------
+;;---------------------------------------
+; Start Encoding into Morse Code Symbols.
+;;---------------------------------------
 (define (encodeMorse)
   (let/ec break
     (let loop()
@@ -263,6 +337,22 @@
       (cond [(string=? data "exit")  (break)])
       (for ([letter data])
         (encode letter))
+      (displayln "")
+      (displayln "")
+      (loop))))
+
+;;-------------------------------------------------
+; Start Encoding into Morse Code (dots and dashes).
+;;-------------------------------------------------
+(define (encodeDataMorse)
+  (let/ec break
+    (let loop()
+      (displayln "Enter a line to get its morse code or Enter \"exit\" to quit): ")
+      (define data (read-line))
+      (cond [(string=? data "exit")  (break)])
+      (for ([letter data])
+        (encodeData letter)
+        (display " "))
       (displayln "")
       (displayln "")
       (loop))))
