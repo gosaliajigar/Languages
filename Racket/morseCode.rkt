@@ -1,7 +1,7 @@
 #lang slideshow
 (require 2htdp/image)
 
-;;------------------------------------------------------------------------------------------------------
+;;---------------------------------------------------------------------------------------------------------------------------
 ;; Program     : morseCode.rkt
 ;; Professor   : Richard Riehle
 ;; Programmer  : Jigar Gosalia (89753)
@@ -12,10 +12,11 @@
 ;;                 the same character.
 ;;               - During decoding, if there is an unknown morse code combination word then it wouldn't
 ;;                 decode and display the morse code as it is.
-;; Usage       : (encodeMorse) and start typing the message you would like to encode and get Morse Code.
+;; Usage       : (encodeMorse) and start typing the message you would like to encode and get Morse Code Symbols.
+;;               (encodeDataMorse) and start typing the message you would like to encode and get Morse Code(dots and dashes).
 ;;               (decodeMorse) and start typing the morse code you would like to decode.
 ;; Credits     : Please check attached morseCodeChart.gif for referring to morse codes.
-;;------------------------------------------------------------------------------------------------------
+;;---------------------------------------------------------------------------------------------------------------------------
 
 
 ;;--------------------------
