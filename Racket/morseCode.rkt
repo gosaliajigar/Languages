@@ -12,9 +12,9 @@
 ;;                 the same character.
 ;;               - During decoding, if there is an unknown morse code combination word then it wouldn't
 ;;                 decode and display the morse code as it is.
-;; Usage       : (encodeMorse) and start typing the message you would like to encode and get Morse Code Symbols.
-;;               (encodeDataMorse) and start typing the message you would like to encode and get Morse Code(dots and dashes).
-;;               (decodeMorse) and start typing the morse code you would like to decode.
+;; Usage       : (encode) and start typing the message you would like to encode and get Morse Code Symbols.
+;;               (encodeData) and start typing the message you would like to encode and get Morse Code(dots and dashes).
+;;               (decode) and start typing the morse code you would like to decode.
 ;; Credits     : Please check attached morseCodeChart.gif for referring to morse codes.
 ;;---------------------------------------------------------------------------------------------------------------------------
 
@@ -108,7 +108,7 @@
 ;;-----------------------------------------------------------------
 ; Convert alphabet, number and punctuation into morse code symbols.
 ;;-----------------------------------------------------------------
-(define (encode letter)
+(define (encodeDataMorse letter)
   (cond [(string-ci=? (~a letter) "1") (print ONE) (display "    ")]
         [(string-ci=? (~a letter) "2") (print TWO) (display "    ")]
         [(string-ci=? (~a letter) "3") (print THREE) (display "    ")]
@@ -182,7 +182,7 @@
 ;;--------------------------------------------------------------------------
 ; Convert alphabet, number and punctuation into morse code (dots and dashes.
 ;;--------------------------------------------------------------------------
-(define (encodeData letter)
+(define (encodeMorse letter)
   (cond [(string=? (~a letter) "1") (display ".----")]
         [(string=? (~a letter) "2") (display "..---")]
         [(string=? (~a letter) "3") (display "...--")]
@@ -251,12 +251,13 @@
         [(string=? (~a letter) "+") (display "-...-")]
         [(string=? (~a letter) "=") (display "---.-")]
         [(string=? (~a letter) "*") (display "-..--")]
+        [(string=? (~a letter) " ") (display "..-..")] 
         [else (display letter)]))
 
 ;;---------------------------------------------------------
 ; Convert morse code into alphabet, number or punctuation.
 ;;---------------------------------------------------------
-(define (decode word)
+(define (decodeMorse word)
   (cond [(string=? (~a word) ".----") (display "1")]
         [(string=? (~a word) "..---") (display "2")]
         [(string=? (~a word) "...--") (display "3")]
@@ -325,19 +326,20 @@
         [(string=? (~a word) "-...-") (display "+")]
         [(string=? (~a word) "---.-") (display "=")]
         [(string=? (~a word) "-..--") (display "*")]
+        [(string=? (~a word) "..-..") (display " ")]
         [else (display word)]))
 
 ;;---------------------------------------
 ; Start Encoding into Morse Code Symbols.
 ;;---------------------------------------
-(define (encodeMorse)
+(define (encodeData)
   (let/ec break
     (let loop()
       (displayln "Enter a line to get its morse code or Enter \"exit\" to quit): ")
       (define data (read-line))
       (cond [(string=? data "exit")  (break)])
       (for ([letter data])
-        (encode letter))
+        (encodeDataMorse letter))
       (displayln "")
       (displayln "")
       (loop))))
@@ -345,14 +347,14 @@
 ;;-------------------------------------------------
 ; Start Encoding into Morse Code (dots and dashes).
 ;;-------------------------------------------------
-(define (encodeDataMorse)
+(define (encode)
   (let/ec break
     (let loop()
       (displayln "Enter a line to get its morse code or Enter \"exit\" to quit): ")
       (define data (read-line))
       (cond [(string=? data "exit")  (break)])
       (for ([letter data])
-        (encodeData letter)
+        (encodeMorse letter)
         (display " "))
       (displayln "")
       (displayln "")
@@ -361,14 +363,14 @@
 ;;--------------------------------
 ; Start Decoding from Morse Code.
 ;;--------------------------------
-(define (decodeMorse)
+(define (decode)
   (let/ec break
     (let loop()
       (displayln "Enter a morse code to decode or Enter \"exit\" to quit): ")
       (define data (read-line))
       (cond [(string=? data "exit")  (break)])
       (for ([word (string-split data " ")])
-        (decode word))
+        (decodeMorse word))
         (display " ")
       (displayln "")
       (displayln "")
