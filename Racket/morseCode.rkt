@@ -12,9 +12,11 @@
 ;;                 the same character.
 ;;               - During decoding, if there is an unknown morse code combination word then it wouldn't
 ;;                 decode and display the morse code as it is.
-;; Usage       : (encode) and start typing the message you would like to encode and get Morse Code Symbols.
-;;               (encodeData) and start typing the message you would like to encode and get Morse Code(dots and dashes).
+;; Usage       : (translate) and start typing the message, it will identify if its simple text or morse code and then act 
+;;                           accordingly.
+;;             : (encode) and start typing the message you would like to encode and get Morse Code Symbols.
 ;;               (decode) and start typing the morse code you would like to decode.
+;;               (encodeData) and start typing the message you would like to encode and get Morse Code(dots and dashes).
 ;; Credits     : Please check attached morseCodeChart.gif for referring to morse codes.
 ;;---------------------------------------------------------------------------------------------------------------------------
 
