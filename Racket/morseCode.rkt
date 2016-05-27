@@ -375,3 +375,40 @@
       (displayln "")
       (displayln "")
       (loop))))
+
+;;-------------------------------------------------
+; Start Encoding into Morse Code (dots and dashes).
+;;-------------------------------------------------
+(define (translate)
+  (let/ec break
+    (let loop()
+      (displayln "Enter a line to get encode or decode message or Enter \"exit\" to quit): ")
+      (define data (read-line))
+      (cond [(string=? data "exit")  (break)]
+            [(isMorseCode data) (morseCodeToSimpleText data)]
+            [(not (isMorseCode data)) (simpleTextToMorseCode data)])
+      (displayln "")
+      (displayln "")
+      (loop))))
+
+;;--------------------------------------------------
+; Convert simple text to morse code (dots and dash).
+;;--------------------------------------------------
+(define (simpleTextToMorseCode data)
+  (for ([letter data])
+     (encodeMorse letter)
+     (display " ")))
+
+;;--------------------------------------------------
+; Convert morse code (dots and dash) to simple text.
+;;--------------------------------------------------
+(define (morseCodeToSimpleText data)
+  (for ([word (string-split data " ")])
+     (decodeMorse word)))
+
+;;-----------------------------------------------------------------
+; Check if given text is morse code (dots and dash) or simple text.
+;;-----------------------------------------------------------------
+(define (isMorseCode text)
+  (string=? (string-replace (string-replace (string-replace text "." "") "-" "") " " "") ""))
+
