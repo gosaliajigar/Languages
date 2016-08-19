@@ -1,0 +1,33 @@
+[a-zA-Z0-9]*@[a-zA-Z0-9-]+\.[a-z]+
+
+ayoungou@comcast ==> Alan,Young,08/03/1987,Male,ayoungou@comcast,3425 Memorial Center,Long Beach,CA,90805,1-(323)526-1281,1-(608)611-9200,1-(812)131-3413,154.105.84.149
+awellskw@comcast ==> Albert,Wells,01/18/2007,Male,awellskw@comcast,4765 Oneill Hill,Escondido,CA,92030,1-(760)954-3552,1-(812)726-6234,1-(646)887-1654,106.234.120.72
+aparkerhs@comcast ==> Amanda,Parker,06/23/1969,Female,aparkerhs@comcast,95986 Di Loreto Hill,San Jose,CA,95113,1-(408)730-5585,1-(202)738-1770,1-(757)157-1906,181.103.197.184
+aturner1f@comcast ==> Anna,Turner,10/10/1973,Female,aturner1f@comcast,86 Gulseth Place,Washington,DC,20409,1-(202)164-4559,1-(816)635-1791,1-(504)457-5842,86.186.210.18
+arichards8x@comcast ==> Annie,Richards,09/14/1975,Female,arichards8x@comcast,9279 Susan Street,Denver,CO,80255,1-(303)367-4924,1-(901)676-6413,1-(704)876-2119,136.135.236.188
+cgutierreza8@comcast ==> Carl,Gutierrez,10/22/1974,Male,cgutierreza8@comcast,311 Granby Junction,White Plains,NY,10633,1-(845)592-9650,1-(330)931-4547,1-(706)681-8302,174.19.16.45
+ckellybs@comcast ==> Carlos,Kelly,01/16/1956,Male,ckellybs@comcast,9 Warbler Junction,Jackson,MS,39204,1-(601)906-0698,1-(813)511-1831,1-(626)204-1663,96.7.8.247
+chilljq@comcast ==> Christine,Hill,10/27/1996,Female,chilljq@comcast,153 Holy Cross Hill,San Francisco,CA,94164,1-(415)228-0194,1-(616)627-6133,1-(214)253-4196,8.245.237.135
+cstewarti3@comcast ==> Christopher,Stewart,11/22/1955,Male,cstewarti3@comcast,6 East Court,Houston,TX,77281,1-(713)911-2262,1-(406)450-7459,1-(616)958-5703,68.105.20.118
+dwallaceko@comcast ==> Dennis,Wallace,02/17/2003,Male,dwallaceko@comcast,8 Sherman Avenue,Tallahassee,FL,32309,1-(850)676-5354,1-(360)767-7455,1-(407)378-3226,223.43.111.177
+etaylorik@comcast ==> Emily,Taylor,05/27/2014,Female,etaylorik@comcast,416 Jackson Center,Las Vegas,NV,89125,1-(702)599-7139,1-(402)748-7938,1-(773)332-2801,175.20.84.9
+ewebb1q@comcast ==> Emily,Webb,11/24/1978,Female,ewebb1q@comcast,5 Helena Parkway,West Palm Beach,FL,33411,1-(561)680-8009,1-(213)198-8341,1-(850)539-5632,88.158.139.20
+hhernandez17@comcast ==> Heather,Hernandez,05/08/1991,Female,hhernandez17@comcast,1 Colorado Park,Staten Island,NY,10310,1-(718)810-4345,1-(806)111-9101,1-(212)300-1271,158.99.239.221
+hbaileydi@comcast ==> Henry,Bailey,04/22/1999,Male,hbaileydi@comcast,96 Coleman Place,Las Vegas,NV,89105,1-(702)978-8578,1-(212)853-4876,1-(202)723-8026,50.231.178.90
+hhallql@comcast ==> Henry,Hall,07/28/1977,Male,hhallql@comcast,3605 Meadow Vale Trail,Missoula,MT,59806,1-(406)237-4526,1-(410)705-1711,1-(805)106-4504,178.134.129.97
+jcunninghampk@comcast ==> Jack,Cunningham,11/08/1960,Male,jcunninghampk@comcast,7335 Thackeray Plaza,Arvada,CO,80005,1-(303)835-5908,1-(212)308-7954,1-(202)655-1123,200.1.63.218
+jgrahamm@comcast ==> Janet,Graham,04/13/1995,Female,jgrahamm@comcast,98089 Melby Plaza,Washington,DC,20062,1-(202)870-7779,1-(559)125-9074,1-(305)976-2040,54.103.1.8
+jwellsm2@comcast ==> Joe,Wells,02/05/1955,Male,jwellsm2@comcast,9 Warrior Court,Pittsburgh,PA,15220,1-(412)226-8372,1-(856)885-9847,1-(415)704-8812,103.163.79.255
+knelson2s@comcast ==> Keith,Nelson,05/24/1980,Male,knelson2s@comcast,60 Nevada Alley,Detroit,MI,48206,1-(586)547-5301,1-(973)951-2602,1-(850)921-5469,94.197.108.23
+lcruzjx@comcast ==> Larry,Cruz,02/08/1967,Male,lcruzjx@comcast,8 Morningstar Junction,Memphis,TN,38188,1-(901)397-3582,1-(904)239-6765,1-(202)124-6516,120.113.158.196
+lcooknf@comcast ==> Laura,Cook,08/11/1971,Female,lcooknf@comcast,9 Forster Center,Indianapolis,IN,46278,1-(317)790-7178,1-(612)165-6986,1-(513)281-1272,160.239.182.136
+lcoleman5i@comcast ==> Lois,Coleman,09/13/1986,Female,lcoleman5i@comcast,03253 Mandrake Plaza,Miami,FL,33261,1-(305)560-3787,1-(402)661-7011,1-(850)386-8385,82.134.34.208
+pcooperm9@comcast ==> Paula,Cooper,02/19/1952,Female,pcooperm9@comcast,319 Delladonna Trail,Washington,DC,20525,1-(202)533-8243,1-(626)578-5464,1-(915)620-7587,197.255.152.71
+rweaver4d@comcast ==> Robert,Weaver,01/05/1979,Male,rweaver4d@comcast,215 Morning Way,Houston,TX,77223,1-(713)533-0963,1-(916)241-9532,1-(815)479-4815,211.149.7.60
+shunt6@comcast ==> Sandra,Hunt,02/23/1964,Female,shunt6@comcast,0 Sutherland Trail,Washington,DC,20436,1-(202)580-9198,1-(989)183-4193,1-(713)413-2899,59.170.161.215
+shernandezjy@comcast ==> Sean,Hernandez,09/01/1977,Male,shernandezjy@comcast,9 Brickson Park Terrace,Lincoln,NE,68517,1-(402)386-9486,1-(217)834-3893,1-(202)730-9515,188.85.58.209
+sknight8g@comcast ==> Stephen,Knight,04/24/1992,Male,sknight8g@comcast,775 Northport Plaza,Buffalo,NY,14215,1-(716)949-8048,1-(213)861-5641,1-(507)439-1637,250.5.217.199
+swatkinspe@comcast ==> Susan,Watkins,11/09/1984,Female,swatkinspe@comcast,916 Fuller Way,Torrance,CA,90505,1-(310)431-0007,1-(305)702-1037,1-(480)741-7623,109.250.35.191
+tmcdonaldgr@comcast ==> Terry,Mcdonald,08/25/1990,Male,tmcdonaldgr@comcast,2867 Cascade Pass,Bakersfield,CA,93386,1-(661)616-7043,1-(260)281-4944,1-(912)438-3772,98.104.81.111
+trussellgk@comcast ==> Timothy,Russell,10/27/1964,Male,trussellgk@comcast,35763 Bunker Hill Center,Lexington,KY,40581,1-(859)399-3483,1-(361)360-5725,1-(208)570-5645,19.43.185.220
+wrice5h@comcast ==> Wayne,Rice,11/10/1968,Male,wrice5h@comcast,946 Luster Point,Fargo,ND,58122,1-(701)923-4000,1-(240)900-0378,1-(512)662-8559,76.4.148.160

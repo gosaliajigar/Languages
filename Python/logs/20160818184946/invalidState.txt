@@ -1,0 +1,62 @@
+[A-Z][A-Z]
+
+ak ==> Aaron,Montgomery,11/27/1978,Male,amontgomery2d@cbsnews.com,3 Waxwing Trail,Anchorage,ak,99599,1-(907)235-3392,1-(901)324-1615,1-(212)124-7649,210.27.199.187
+ak ==> Anna,Ortiz,11/13/2013,Female,aortizec@tamu.edu,95998 La Follette Junction,Juneau,ak,99812,1-(907)410-8847,1-(305)788-2786,1-(541)178-3364,122.249.156.228
+ak ==> Beverly,Lee,11/12/1984,Female,blee76@dailymail.co.uk,2 Eliot Drive,Fairbanks,ak,99790,1-(907)868-8802,1-(480)907-6618,1-(217)583-9624,30.87.180.5
+ak ==> Bobby,Hughes,08/12/1966,Male,bhughes8g@amazon.com,3129 Shoshone Pass,Fairbanks,ak,99790,1-(907)806-2702,1-(312)772-8527,1-(619)357-6925,11.199.219.83
+ak ==> Bobby,Willis,07/17/2005,Male,bwillishz@ucoz.com,12 Norway Maple Court,Anchorage,ak,99599,1-(907)671-6786,1-(518)878-6663,1-(978)967-6260,191.235.4.25
+ak ==> Brandon,Gonzalez,03/07/1980,Male,bgonzalezhm@elpais.com,5 Spaight Alley,Juneau,ak,99812,1-(907)676-7960,1-(314)695-9307,1-(650)794-2869,39.61.18.159
+ak ==> Carlos,Alvarez,02/03/1984,Male,calvarezga@webs.com,792 Westerfield Terrace,Anchorage,ak,99517,1-(907)977-6918,1-(314)869-5138,1-(540)518-1237,21.29.250.121
+ak ==> Cheryl,Johnson,08/28/1955,Female,cjohnsonkh@wisc.edu,2111 Scoville Lane,Anchorage,ak,99512,1-(907)538-5172,1-(316)562-3161,1-(860)172-2528,97.73.41.39
+ak ==> Christina,Wheeler,07/09/2006,Female,cwheelerh1@freewebs.com,283 Dennis Plaza,Fairbanks,ak,99709,1-(907)751-8889,1-(864)991-4987,1-(202)409-2221,120.195.115.11
+ak ==> Christopher,Daniels,05/16/1995,Male,cdanielshr@illinois.edu,5 Red Cloud Alley,Fairbanks,ak,99709,1-(907)743-9546,1-(701)195-5158,1-(904)484-0324,39.21.185.126
+ak ==> Deborah,Bradley,11/18/1983,Female,dbradleybs@furl.net,73354 Eastwood Pass,Fairbanks,ak,99709,1-(907)367-7038,1-(518)204-0390,1-(704)378-2473,0.146.175.193
+ak ==> Diana,Peters,07/07/1988,Female,dpetersz@yolasite.com,72964 Towne Drive,Anchorage,ak,99512,1-(907)802-5944,1-(806)466-4533,1-(850)522-2046,103.189.123.127
+ak ==> Diana,Williamson,08/20/1972,Female,dwilliamson30@pbs.org,15853 Mayfield Road,Juneau,ak,99812,1-(907)320-6319,1-(407)413-3879,1-(303)704-6034,4.135.135.235
+ak ==> Diane,Peterson,06/06/1964,Female,dpetersonin@trellian.com,00330 Sunbrook Plaza,Anchorage,ak,99507,1-(907)401-9764,1-(412)540-4908,1-(302)314-6325,250.90.230.239
+ak ==> Douglas,Lee,12/04/2000,Male,dleev@squidoo.com,6304 Tony Road,Anchorage,ak,99517,1-(907)523-8797,1-(405)561-2110,1-(860)343-5175,63.250.119.143
+ak ==> Earl,Ferguson,08/18/1955,Male,efergusoni7@latimes.com,62 Stone Corner Pass,Anchorage,ak,99517,1-(907)989-3607,1-(240)236-4121,1-(915)633-9793,189.140.110.203
+ak ==> Earl,Henry,05/07/1992,Male,ehenryft@wired.com,36154 Chinook Terrace,Anchorage,ak,99517,1-(907)472-0150,1-(253)632-3846,1-(785)106-5360,92.179.135.106
+ak ==> Emily,Gonzales,11/24/1954,Female,egonzales1c@altervista.org,7858 Novick Avenue,Anchorage,ak,99522,1-(907)527-2640,1-(469)934-9525,1-(754)105-0652,218.156.87.250
+ak ==> Evelyn,Bailey,08/23/1990,Female,ebaileyf1@scribd.com,992 Luster Street,Fairbanks,ak,99790,1-(907)213-5994,1-(914)565-2282,1-(913)497-6927,63.150.83.91
+ak ==> Frances,Jacobs,03/10/1966,Female,fjacobs1z@phpbb.com,2 Amoth Trail,Anchorage,ak,99512,1-(907)286-4673,1-(772)932-2269,1-(757)479-0955,124.197.254.181
+ak ==> Henry,Watson,10/30/1970,Male,hwatsongg@etsy.com,3 Maywood Terrace,Juneau,ak,99812,1-(907)746-6222,1-(504)498-0286,1-(205)695-9599,210.175.188.122
+ak ==> James,Chavez,12/07/1963,Male,jchavez5x@china.com.cn,709 Badeau Alley,Anchorage,ak,99599,1-(907)404-1979,1-(559)550-9422,1-(315)537-5860,185.54.246.130
+ak ==> Jason,Oliver,02/12/1993,Male,joliverdp@mlb.com,5 Pleasure Court,Anchorage,ak,99599,1-(907)515-8967,1-(504)397-4016,1-(260)868-6538,82.148.88.108
+ak ==> Jesse,Nelson,03/31/2002,Male,jnelsonhf@xrea.com,95 Monument Way,Anchorage,ak,99512,1-(907)946-7178,1-(651)961-2062,1-(281)195-4695,171.219.90.104
+ak ==> Joseph,Schmidt,10/25/1973,Male,jschmidtm4@infoseek.co.jp,1466 Anderson Crossing,Anchorage,ak,99522,1-(907)162-3531,1-(913)254-7406,1-(405)886-1727,19.135.139.234
+ak ==> Kathleen,Collins,10/27/1966,Female,kcollins4n@harvard.edu,79 Chinook Park,Juneau,ak,99812,1-(907)577-8366,1-(530)882-4456,1-(616)458-5587,200.182.116.77
+ak ==> Kenneth,Graham,06/05/1974,Male,kgraham1y@jimdo.com,81 Colorado Court,Fairbanks,ak,99709,1-(907)739-4685,1-(317)971-4108,1-(912)265-0466,65.215.158.45
+ak ==> Larry,Daniels,10/25/1982,Male,ldanielsga@hhs.gov,171 Manitowish Avenue,Fairbanks,ak,99709,1-(907)824-9528,1-(860)510-0576,1-(410)342-5298,125.76.47.21
+ak ==> Larry,Gordon,10/04/2003,Male,lgordonl6@utexas.edu,360 Vahlen Terrace,Anchorage,ak,99599,1-(907)630-0303,1-(813)384-3990,1-(713)748-8790,227.128.190.33
+ak ==> Laura,Berry,01/27/2014,Female,lberryok@storify.com,75934 Moland Way,Fairbanks,ak,99709,1-(907)881-6193,1-(951)876-7472,1-(718)564-3786,164.227.203.131
+ak ==> Laura,Carr,05/02/1979,Female,lcarr2m@ucoz.com,61 Longview Alley,Anchorage,ak,99512,1-(907)400-4211,1-(937)975-8466,1-(512)389-6432,174.180.195.233
+ak ==> Laura,Ortiz,12/16/1999,Female,lortiz9a@virginia.edu,78 Bartelt Street,Anchorage,ak,99512,1-(907)437-3750,1-(703)425-4786,1-(904)897-4044,176.3.49.150
+ak ==> Lawrence,Riley,06/06/1982,Male,lrileyr@flickr.com,3947 Dayton Alley,Anchorage,ak,99507,1-(907)260-6684,1-(727)389-8734,1-(504)835-3843,191.250.118.141
+ak ==> Louis,Howard,09/18/1978,Male,lhowardne@nymag.com,00655 Starling Crossing,Anchorage,ak,99522,1-(907)461-3140,1-(414)230-5531,1-(408)682-9841,248.109.76.146
+ak ==> Margaret,Bryant,10/26/1959,Female,mbryantgb@phoca.cz,66 Glacier Hill Circle,Anchorage,ak,99517,1-(907)704-7553,1-(240)844-4074,1-(812)835-4802,122.88.141.86
+ak ==> Melissa,Baker,03/10/1973,Female,mbaker2g@freewebs.com,0917 Fulton Street,Juneau,ak,99812,1-(907)874-3252,1-(713)866-0046,1-(801)925-2999,76.189.97.166
+ak ==> Melissa,Fuller,07/27/1966,Female,mfuller5z@aboutads.info,38 Thierer Crossing,Anchorage,ak,99522,1-(907)288-5467,1-(915)996-6499,1-(816)674-6852,153.152.96.197
+ak ==> Patrick,Morris,09/11/1971,Male,pmorrism3@berkeley.edu,0 Nobel Court,Anchorage,ak,99517,1-(907)529-0915,1-(404)595-2420,1-(862)440-5867,140.209.68.203
+ak ==> Paula,Stanley,03/26/1976,Female,pstanley7u@sun.com,393 Charing Cross Junction,Anchorage,ak,99517,1-(907)702-2982,1-(217)372-5121,1-(513)755-7119,146.228.117.138
+ak ==> Peter,Hansen,06/10/1975,Male,phansen9p@aol.com,44854 Roth Road,Anchorage,ak,99512,1-(907)447-7226,1-(704)541-5097,1-(205)835-3719,62.217.217.62
+ak ==> Philip,Hunter,04/08/2014,Male,phunterdq@harvard.edu,3 Susan Way,Anchorage,ak,99507,1-(907)805-1649,1-(559)312-5204,1-(713)178-3334,89.210.20.62
+ak ==> Randy,Woods,03/11/2005,Male,rwoodsjl@studiopress.com,49700 Eliot Circle,Anchorage,ak,99517,1-(907)133-4933,1-(775)240-0905,1-(919)293-7275,208.252.59.62
+ak ==> Rebecca,Romero,09/28/1999,Female,rromeromi@marketwatch.com,3071 Esch Trail,Anchorage,ak,99522,1-(907)129-4054,1-(402)793-5732,1-(619)103-7093,128.247.119.181
+ak ==> Robert,Brooks,12/17/1998,Male,rbrooksq4@europa.eu,9855 John Wall Way,Juneau,ak,99812,1-(907)714-6926,1-(205)655-3259,1-(504)369-9067,147.51.67.89
+ak ==> Ruby,Hayes,09/15/2008,Female,rhayesms@blinklist.com,1475 Donald Junction,Anchorage,ak,99507,1-(907)833-7034,1-(215)765-9222,1-(205)220-0326,164.50.87.122
+ak ==> Ruth,Robertson,01/20/1990,Female,rrobertsonkf@china.com.cn,33 Darwin Trail,Anchorage,ak,99512,1-(907)773-9370,1-(757)760-5808,1-(352)515-4943,211.23.155.102
+ak ==> Ryan,Jones,07/23/1951,Male,rjonesrn@xing.com,223 Briar Crest Junction,Anchorage,ak,99522,1-(907)835-1970,1-(413)831-1718,1-(505)154-3323,42.73.1.171
+ak ==> Sara,Murray,09/16/1958,Female,smurrayfu@over-blog.com,3 Burrows Point,Anchorage,ak,99517,1-(907)314-9039,1-(212)856-4067,1-(412)515-6689,142.130.57.180
+ak ==> Shawn,Williamson,09/19/1974,Male,swilliamsonmv@goodreads.com,4402 Thackeray Court,Anchorage,ak,99507,1-(907)885-0016,1-(417)131-7360,1-(210)280-0388,27.178.233.87
+ak ==> Shirley,Nichols,04/05/1961,Female,snicholsq0@bing.com,82892 Derek Plaza,Anchorage,ak,99522,1-(907)501-8313,1-(212)814-8302,1-(318)822-0645,178.103.199.23
+ak ==> Stephen,Howard,07/25/1999,Male,showardoc@cornell.edu,859 Golf Course Place,Anchorage,ak,99517,1-(907)699-9400,1-(713)729-9003,1-(253)443-1284,190.53.47.177
+ak ==> Stephen,Young,05/23/1995,Male,syoung71@psu.edu,830 Continental Lane,Anchorage,ak,99599,1-(907)625-8180,1-(585)947-2652,1-(203)286-9074,68.227.188.57
+ak ==> Teresa,Carroll,03/18/1979,Female,tcarrolli7@taobao.com,92 Towne Avenue,Anchorage,ak,99517,1-(907)796-0879,1-(813)773-9049,1-(304)246-6909,176.3.220.129
+ak ==> Teresa,White,09/05/1972,Female,twhiteik@reuters.com,6 Spenser Crossing,Fairbanks,ak,99790,1-(907)721-1971,1-(505)441-1487,1-(915)160-3437,65.16.112.184
+ak ==> Terry,Gibson,08/06/1991,Male,tgibsonia@hexun.com,148 Talmadge Parkway,Juneau,ak,99812,1-(907)838-6344,1-(321)714-1418,1-(832)273-6930,151.205.38.35
+ak ==> Theresa,Wheeler,06/21/2009,Female,twheelercp@answers.com,693 Debs Street,Fairbanks,ak,99709,1-(907)732-8410,1-(713)405-7034,1-(626)719-2140,158.58.69.217
+ak ==> Thomas,Hughes,04/13/2009,Male,thughes3n@oakley.com,453 Northview Pass,Anchorage,ak,99512,1-(907)555-0024,1-(202)161-4073,1-(951)702-8073,1.2.36.7
+ak ==> Timothy,Gordon,09/08/1972,Male,tgordonq0@163.com,72227 Hanover Way,Anchorage,ak,99512,1-(907)185-7347,1-(571)598-9344,1-(515)907-6732,161.100.243.33
+ak ==> Todd,Wagner,07/20/1985,Male,twagner8o@yolasite.com,5308 Corscot Terrace,Anchorage,ak,99512,1-(907)732-6869,1-(646)156-6279,1-(623)165-1967,108.33.249.47
+ak ==> Wanda,Fox,07/24/2009,Female,wfox31@gmpg.org,90449 Ryan Point,Juneau,ak,99812,1-(907)901-0994,1-(765)825-1595,1-(212)576-2751,42.82.240.227

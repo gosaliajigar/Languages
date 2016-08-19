@@ -1,0 +1,23 @@
+1-\([0-9][0-9][0-9]\)[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]
+
+1-(203)-128-9970 ==> Aaron,Anderson,01/23/1981,Male,aandersonkg@studiopress.com,86 Larry Pass,Jacksonville,FL,32225,1-(904)715-7107,1-(203)-128-9970,1-(518)821-0438,164.96.247.127
+1-(813)-128-0494 ==> Alan,Marshall,04/01/1990,Male,amarshall5f@buzzfeed.com,5704 Michigan Circle,Atlanta,GA,31136,1-(404)144-9072,1-(813)-128-0494,1-(202)102-8445,20.242.229.200
+1-(202)-128-3751 ==> David,Ray,08/26/2005,Male,draymq@homestead.com,124 North Center,Houston,TX,77075,1-(281)488-1628,1-(202)-128-3751,1-(407)692-6783,250.55.23.58
+1-(812)-128-7811 ==> Dorothy,Harris,01/22/1983,Female,dharrisqv@examiner.com,48715 Algoma Alley,Saint Louis,MO,63136,1-(314)515-0261,1-(812)-128-7811,1-(515)496-2006,159.8.117.18
+1-(260)-128-3307 ==> Gerald,Smith,11/17/2003,Male,gsmitha3@spotify.com,4424 Farragut Terrace,Des Moines,IA,50981,1-(515)517-5842,1-(260)-128-3307,1-(804)765-8838,164.233.120.173
+1-(386)-128-4573 ==> Janet,Mcdonald,03/05/2002,Female,jmcdonaldk4@dell.com,31266 Montana Park,Fort Pierce,FL,34981,1-(772)536-0452,1-(386)-128-4573,1-(850)539-9105,57.38.140.247
+1-(617)-128-1860 ==> Janice,Gray,12/01/1978,Female,jgraybq@wiley.com,98211 Westridge Avenue,Youngstown,OH,44505,1-(330)685-9691,1-(617)-128-1860,1-(706)844-9818,146.146.95.28
+1-(717)-128-4115 ==> Jason,Hudson,02/12/1952,Male,jhudsoncz@youtube.com,4220 Forster Trail,San Diego,CA,92191,1-(619)453-0920,1-(717)-128-4115,1-(651)500-6415,84.51.189.242
+1-(323)-128-0435 ==> Kathryn,Burns,08/29/2000,Female,kburnsaa@mail.ru,9 Bobwhite Trail,Orlando,FL,32885,1-(407)253-7707,1-(323)-128-0435,1-(702)452-5462,205.99.90.91
+1-(517)-128-5144 ==> Kelly,Hunt,03/22/1954,Female,khuntf3@furl.net,1 Packers Circle,Dallas,TX,75310,1-(214)791-8594,1-(517)-128-5144,1-(816)799-6222,223.227.217.18
+1-(404)-128-7760 ==> Larry,Jordan,03/30/1998,Male,ljordan7o@unesco.org,0 Kinsman Parkway,Muskegon,MI,49444,1-(231)181-2412,1-(404)-128-7760,1-(612)987-9213,111.114.151.105
+1-(605)-128-4762 ==> Lawrence,Campbell,01/10/1996,Male,lcampbelli8@imdb.com,6 Portage Avenue,Des Moines,IA,50981,1-(515)158-8522,1-(605)-128-4762,1-(718)541-2099,157.86.155.83
+1-(318)-128-9886 ==> Lisa,Berry,01/23/2014,Female,lberry3j@tinypic.com,306 Charing Cross Hill,Toledo,OH,43635,1-(419)939-4929,1-(318)-128-9886,1-(916)152-2144,132.57.150.121
+1-(347)-128-7625 ==> Mary,Perry,04/22/1963,Female,mperryka@slashdot.org,43590 Melvin Pass,Des Moines,IA,50362,1-(515)715-0385,1-(347)-128-7625,1-(212)654-6731,49.167.94.82
+1-(410)-128-7326 ==> Patricia,Peters,05/26/1993,Female,ppetersk3@vk.com,5 Bartillon Park,Henderson,NV,89074,1-(702)602-5311,1-(410)-128-7326,1-(804)136-1242,197.225.244.103
+1-(661)-128-7941 ==> Peter,Wood,12/24/1994,Male,pwoodoh@parallels.com,49327 Derek Crossing,Washington,DC,20337,1-(202)984-8568,1-(661)-128-7941,1-(907)849-2589,9.225.22.4
+1-(505)-128-8308 ==> Randy,Rodriguez,05/25/1993,Male,rrodriguez64@home.pl,9713 Burning Wood Trail,Sioux Falls,SD,57105,1-(605)825-9216,1-(505)-128-8308,1-(214)970-7174,166.254.15.58
+1-(714)-128-8628 ==> Robin,Hayes,08/12/1975,Female,rhayes2d@cdc.gov,38 Packers Junction,Aiken,SC,29805,1-(803)767-2230,1-(714)-128-8628,1-(812)113-0497,61.45.220.81
+1-(505)-128-7238 ==> Ruby,Bishop,03/18/1978,Female,rbishop67@prlog.org,6564 Vahlen Way,Pittsburgh,PA,15255,1-(412)630-7948,1-(505)-128-7238,1-(202)415-9932,3.85.20.155
+1-(704)-128-8228 ==> Samuel,Richards,06/18/1969,Male,srichardsl7@mayoclinic.com,0 Hagan Way,Terre Haute,IN,47812,1-(812)731-2777,1-(704)-128-8228,1-(202)570-6368,8.155.65.242
+1-(507)-128-6878 ==> Wanda,Ray,12/20/1995,Female,wrayd7@google.ru,079 Dottie Drive,Scranton,PA,18514,1-(570)630-8243,1-(507)-128-6878,1-(480)516-4519,225.134.56.188

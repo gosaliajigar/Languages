@@ -1,0 +1,20 @@
+[0-9][0-9][0-9][0-9][0-9]
+
+9678-3456 ==> Ann,Willis,11/01/2012,Female,awillisre@paypal.com,54219 Lakewood Gardens Lane,New Hyde Park,NY,9678-3456,1-(516)498-6634,1-(304)912-5509,1-(304)924-2555,231.228.17.204
+9678-3456 ==> Carolyn,Cox,03/24/2020,Female,ccox83@webnode.com,9727 Corscot Lane,Port Washington,NY,9678-3456,1-(516)145-7177,1-(260)761-7280,1-(916)763-9969,102.150.237.72
+9678-3456 ==> Christina,Parker,02/12/1989,Female,cparkerjj@baidu.com,11 Birchwood Trail,Port Washington,NY,9678-3456,1-(516)943-8632,1-(504)341-4451,1-(772)127-3445,247.88.20.213
+9678-3456 ==> Donna,Nichols,07/07/1974,Female,dnicholsm@senate.gov,6 Namekagon Lane,Port Washington,NY,9678-3456,1-(516)841-5240,1-(217)208-5968,1-(202)247-7522,20.58.182.254
+9678-3456 ==> Douglas,Griffin,03/30/1962,Male,dgriffinf2@admin.ch,78 Ridgeway Pass,New Hyde Park,NY,9678-3456,1-(516)592-5529,1-(772)369-5309,1-(773)324-1246,69.174.170.23
+9678-3456 ==> Evelyn,Gilbert,10/06/1974,Female,egilbert8i@weibo.com,316 Butterfield Trail,Great Neck,NY,9678-3456,1-(516)229-6961,1-(256)350-0233,1-(757)424-9906,55.209.236.32
+9678-3456 ==> Frances,Chapman,12/01/1989,Female,fchapmanhl@yahoo.co.jp,064 Ronald Regan Parkway,Great Neck,NY,9678-3456,1-(516)300-5874,1-(682)657-8765,1-(559)496-9631,107.173.239.40
+9678-3456 ==> Howard,Murray,08/06/2006,Male,hmurray85@forbes.com,495 Weeping Birch Way,Great Neck,NY,9678-3456,1-(516)906-2486,1-(559)462-3699,1-(334)218-9547,189.249.171.160
+9678-3456 ==> James,Lopez,03/03/2013,Male,jlopez59@facebook.com,9 Bonner Crossing,New Hyde Park,NY,9678-3456,1-(516)589-5517,1-(602)801-2647,1-(910)167-8378,39.232.91.149
+9678-3456 ==> Jennifer,Gilbert,04/20/1972,Female,jgilbertf5@businessweek.com,0 Rutledge Terrace,Port Washington,NY,9678-3456,1-(516)408-8875,1-(608)999-9898,1-(405)865-2038,105.206.139.232
+9678-3456 ==> Joseph,Dunn,02/10/1994,Male,jdunn1m@kickstarter.com,667 Grasskamp Trail,Port Washington,NY,9678-3456,1-(516)700-7094,1-(678)259-3549,1-(251)761-6925,166.163.50.247
+9678-3456 ==> Katherine,Flores,05/24/1996,Female,kfloresmz@army.mil,6079 Memorial Road,Great Neck,NY,9678-3456,1-(516)534-3549,1-(305)505-9577,1-(405)941-5639,63.0.202.174
+9678-3456 ==> Kenneth,Gray,02/21/1981,Male,kgray9q@rediff.com,02925 Meadow Vale Place,Port Washington,NY,9678-3456,1-(516)237-9545,1-(716)316-9279,1-(682)721-2733,9.191.112.82
+9678-3456 ==> Lawrence,Ramos,05/11/1957,Male,lramosbf@ca.gov,0 Briar Crest Place,New Hyde Park,NY,9678-3456,1-(516)634-3442,1-(214)223-9799,1-(786)237-9524,116.111.31.252
+9678-3456 ==> Lois,Fisher,02/25/1958,Female,lfisherp1@symantec.com,70213 Messerschmidt Road,Port Washington,NY,9678-3456,1-(516)168-7251,1-(812)700-3035,1-(860)300-3333,47.26.230.211
+9678-3456 ==> Raymond,Moore,08/04/2008,Male,rmoorem0@last.fm,213 Gerald Parkway,New Hyde Park,NY,9678-3456,1-(516)427-2453,1-(509)396-3477,1-(508)565-8667,187.194.176.15
+9678-3456 ==> Shirley,Peters,03/06/2003,Female,speters6h@ebay.com,282 Buhler Trail,New Hyde Park,NY,9678-3456,1-(516)647-3535,1-(818)266-0673,1-(281)529-9207,215.166.10.6
+9678-3456 ==> Stephanie,Dixon,08/20/2006,Female,sdixonqw@facebook.com,558 Golf Course Parkway,New Hyde Park,NY,9678-3456,1-(516)720-5734,1-(339)549-6345,1-(212)218-2926,12.27.99.36
