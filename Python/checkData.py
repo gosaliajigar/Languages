@@ -14,7 +14,7 @@ import re
 import os
 from datetime import datetime
 
-""" Very crude level of regular expressions to validate data, regex can be more sophisticated then this.
+""" Very crude level of regular expressions to validate data, regex can be more sophisticated then this. """
 
 CURRENT_TIME      = datetime.now().strftime("%Y%m%d%H%M%S")
 BASE_DIRECTORY    = os.getcwd() + os.sep;
