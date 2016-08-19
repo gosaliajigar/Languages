@@ -1,0 +1,558 @@
+<html>
+
+<body>
+
+<script type="text/javascript">
+	
+	function add(first, second) {
+		return (first + second);
+	}
+
+	function sub(first, second) {
+		return (first - second);
+	}
+
+	function mul(first, second) {
+		return (first * second);
+	}
+
+	// Write a function identifyf that returns function which returns the same argument
+	function identifyf(x) {
+		return function () {
+			return x;
+		};
+	}
+	var e1 = identifyf(3);
+	console.log("e1" + e1);
+
+	// Write a function addf that adds from two invocations
+		// addf(3)(4) --> 7
+	function addf(first) {
+		return function (second) {
+			return (first + second) ;
+		}
+	}
+	var e2 = addf(3)(4);
+	console.log("e2" + e2);
+
+	// Write a function liftf that takes a binary function and makes it callable with two invocations.
+		// var addf = liftf(add);
+		// addf(3)(4) --> 7
+		// liftf (mul)(5)(6) --> 30
+	function liftf(binary) {
+		return function (first) {
+			return function (second) {
+				return binary(first, second);
+			}
+		}
+	}
+	var e3 = liftf(mul)(3)(4);
+	console.log("e3=" + e3);
+
+	// function curry that takes a binary function and an argument and returns a function that can take a second argument.
+		// var add3 = curry(add, 3);
+		// add3(4) --> 7
+		// curry (mul, 5) (6) --> 30
+	function curry(binary, first){
+		return function (second) {
+			return binary(first, second);
+		}
+	}
+	var e4 = curry (mul, 5) (6);
+	console.log("e4=" + e4);
+
+	// Without any new function, show 3 ways to create the inc functions using existing functions
+		// var inc = ___;
+		// inc(5); --> 6
+		// inc(inc(5)) --> 7
+
+	var inc1 =  addf(1);
+	console.log("Using addf");
+	console.log("-----------");
+	console.log(inc1(5));
+	console.log(inc1(inc1(5)))
+
+	var inc2 = liftf(add)(1);
+	console.log("Using liftf");
+	console.log("-----------");
+	console.log(inc2(5));
+	console.log(inc2(inc2(5)))
+
+	var inc3 = curry(add, 1);
+	console.log("Using curry");
+	console.log("-----------");
+	console.log(inc3(5));
+	console.log(inc3(inc3(5)))
+
+	// Write a function twice that takes a binary function and returns a urnary function that passes its argument to binary function twice
+		// add(11, 11) --> 22
+		// var doubl = twice(add);
+		// doubl(11) --> 22
+		// var square = twice(mul);
+		// square(11) --> 121
+	function twice(binary) {
+		return function (first) {
+			return binary(first, first);
+		}
+	}
+	var e5 = twice(add)(11);
+	console.log("e5=" + e5);
+
+	// Write reverse, a function that reverses the arguments of a binary function
+	function reverse(binary) {
+		return function (first, second) {
+			return binary(second, first);
+		}
+	}
+	var e6 = reverse(sub)(3,2);
+	console.log("e6=" + e6);
+
+	// Write a function composeu that takes two unary functions and returns a urnary function that calls them both
+		// composeu(doubl, square) (5) --> 100
+	function composeu(func1, func2) {
+		return function (first) {
+			return (func2(func1(first)));
+		}
+	}
+	var doubl = twice(add);
+	var square = twice(mul);
+	var e7 = composeu(doubl, square)(5);
+	console.log("e7=" + e7);
+
+	// Write a function composeb that takes two binary functions and returns a function that calls them both.
+		// composeb(add, mul)(2,3,7) --> 35
+	function composeb(func1, func2) {
+		return function (first, second, third) {
+			return (func2(func1(first, second), third));
+		}
+	}
+	var e8 = composeb(add, mul)(2,3,7);
+	console.log("e8=" + e8);
+
+	// Write a limit function that allows a binary function to be called only once
+		// var add_ltd = limit(add, 1);
+		// add_ltd(3, 4) --> 7
+		// add_ltd(3, 5) --> undefined
+	function limit(binary, times) {
+		var counter = 0;
+		return function (first, second) {
+			counter += 1;
+			if (counter <= times) {
+				return binary(first, second);
+			} else {
+				return undefined;
+			}
+		};
+	}
+
+	// optional implementation
+	function limitOptional(binary, count) {
+		return function (a, b) {
+			if (count >= 1) {
+				count -= 1;
+				return binary(a,b);
+			}
+			return undefined;
+		};
+	}
+
+	var e9 = limit(add, 1);
+	console.log("e9 with 1=" + e9(3,4));
+	console.log("e9 with 1=" + e9(3,5));
+
+	// Write a from function that prodices a generator that will produce a series of values
+		// var index = from(0);
+		// index() --> 0
+		// index() --> 1
+		// index() --> 2
+	function from(seed) {
+		return function () {
+			return seed++;
+		};
+	}
+	var index = from(0);
+	console.log("index=" + index());
+	console.log("index=" + index());
+	console.log("index=" + index());
+
+	// Write a to function that takes a generator and an end value, and returns a generator that will produce numbers up tp that limit.
+		// var index = to(from(1), 3);
+		// index() --> 1
+		// index() --> 2
+		// index() --> undefined
+	function to(generator, max) {
+		return function () {
+			var value = generator();
+			if (value === undefined || value < max) {
+				return value;
+			} else {
+				return undefined;
+			}
+		};
+	}
+	var index = to(from(1), 3);
+	console.log("index=" + index());
+	console.log("index=" + index());
+	console.log("index=" + index());
+
+	// Write a fromTo function that produces a generator that will produce values in a range.
+		// var index = fromTo(0,3);
+		// index() --> 0
+		// index() --> 1
+		// index() --> 2
+		// index() --> undefined
+	function fromTo(seed, max) {
+		return to(from(seed), max);
+	}
+	var index = fromTo(0, 3);
+	console.log("index=" + index());
+	console.log("index=" + index());
+	console.log("index=" + index());
+	console.log("index=" + index());
+
+	// Write an element function that takes an array and a generator and returns a generator that will produce elements from the array.
+		// var ele = element(['a','b','c','d'], fromTo(1, 3));
+		// ele() --> 'b'
+		// ele() --> 'c'
+		// ele() --> undefined
+	function element(array, generator) {
+		// Make generator an optinal field for next exercise.
+		if (generator === undefined) {
+			generator = fromTo(0, array.length);
+		}		
+		return function () {
+			var value = generator();
+			// If you miss if condition, it accidently works is JS looks for undefined in array object and converts it to undefined string. Objects are hastable and if they have undefined value then it will confuse the function as undefined is a value.
+			// One more consequence, array bounds exception could never happen in JS.
+			if (value !== undefined) {
+				return array[value];
+			}
+		};
+	}
+	var ele = element(['a','b','c','d'], fromTo(1, 3));
+	console.log("ele=" + ele());
+	console.log("ele=" + ele());
+	console.log("ele=" + ele());
+
+	// Modify the lement function so that the generator argument is optional. If a generator is not provided, then each of the elements of the array will be produces.
+		// 	var ele = element(['a','b','c','d']);
+		// console.log("ele=" + ele());
+		// console.log("ele=" + ele());
+		// console.log("ele=" + ele());
+		// console.log("ele=" + ele());
+		// console.log("ele=" + ele());
+	var ele = element(['a','b','c','d']);
+	console.log("ele=" + ele());
+	console.log("ele=" + ele());
+	console.log("ele=" + ele());
+	console.log("ele=" + ele());
+	console.log("ele=" + ele());
+
+	// Write a collect function that takes a generator and an array and produces a function that wil collect the results in the array.
+		// var array = [];
+		// var col = collect(fromTo(0, 2), array);
+		// col() --> 0
+		// col() --> 1
+		// col() --> undefined
+		// col() --> [0, 1]
+	function collect(generator, array) {
+		return function () {
+			var value = generator();
+			if (value !== undefined) {
+				// Optional : array[index++] = value;
+				// Optional : array[array.length] = value;
+				array.push(value);
+			}
+			return value;
+		};
+	}
+	var array = [];
+	var col = collect(fromTo(0, 2), array);
+	console.log("col=" + col());
+	console.log("array=" + array);
+	console.log("col=" + col());
+	console.log("array=" + array);
+	console.log("col=" + col());
+	console.log("array=" + array);
+
+	// Write a filter function that takes a generator and a predicate and produces a generator that produces only the values approved by the predicate.
+
+	function filter(generator, predicate) {
+		return function () {
+			var value;
+			do {
+				value = generator();
+			} while (value !== undefined && !predicate(value)){
+				return value;
+			}
+		};
+	}
+	var fil = filter(fromTo(0, 5), function check(value) { return (value % 3) === 0; });
+	console.log("fil=" + fil());
+	console.log("fil=" + fil());
+	console.log("fil=" + fil());
+
+	// Write a concat function that takes two generators and produces a generator that combines the sequences.
+	// var con = concat(fromTo(0, 3), fromTo(0, 2));
+	// con() --> 0
+	// con() --> 1
+	// con() --> 2
+	// con() --> 0
+	// con() --> 1
+	// con() --> undefined
+	function concat(gen1 ,gen2) {
+		var gen = gen1;
+		return function () {
+			var value = gen();
+			if (value !== undefined) {
+				return value;
+			}
+			gen = gen2;
+			return gen();
+		};
+	}
+	var con = concat(fromTo(0, 3), fromTo(0, 2));
+	console.log("con=" + con());
+	console.log("con=" + con());
+	console.log("con=" + con());
+	console.log("con=" + con());
+	console.log("con=" + con());
+	console.log("con=" + con());
+
+	// Write a function gensymf that makes a function that generates unique symbols.
+		// var geng = gensymf("G"), genh = gensymf("H");
+		// geng() --> "G1"
+		// genf() --> "H1"
+		// geng() --> "G2"
+		// genh() --> "H2"
+	function gensymf(symbol) {
+		var seq = from(1);
+		return function () {
+			return (symbol + seq());
+		}
+	}
+	var geng = gensymf("G"), genh = gensymf("H");
+	console.log("geng=" + geng());
+	console.log("genh=" + genh());
+	console.log("geng=" + geng());
+	console.log("genh=" + genh());
+
+	// Make a function fibonaccif that returns a generator that will return that next fibonacci number.
+		// var fib = fibonaccif(0, 1);
+		// fib() --> 0
+		// fib() --> 1
+		// fib() --> 1
+		// fib() --> 2
+		// fib() --> 3
+		// fib() --> 5
+	function fibonaccif(first, second) {
+		var count = 0;
+		return function () {
+			count += 1;
+			if (count === 1) {
+				return first;
+			} else if (count === 2) {
+				return second;
+			} else {
+				var next = first + second;
+				first = second;
+				second = next;
+				return next;
+			}
+		};
+	}
+	var fib = fibonaccif(0, 1);
+	console.log("fib=" + fib());
+	console.log("fib=" + fib());
+	console.log("fib=" + fib());
+	console.log("fib=" + fib());
+	console.log("fib=" + fib());
+	console.log("fib=" + fib());
+
+	// Write a counter function that returns an object containing two functions that implement an up/down counter, hiding the counter.
+		// var object = counter(10), next = object.next, prev = object.prev;
+		// next() --> 11
+		// prev() --> 10
+		// prev() --> 9
+		// next() --> 10
+	function counter(start) {
+		var inc = function () {
+			start++;
+			return start;
+		};
+		var dec = function () {
+			start--;
+			return start;
+		};
+		var object = {next: inc, prev: dec};
+		return object;
+	}
+	var object = counter(10), next = object.next, prev = object.prev;
+	console.log("next=" + next());
+	console.log("prev=" + prev());
+	console.log("prev=" + prev());
+	console.log("next=" + next());
+
+	// Make a revocable function that takes a urnary function and returns an object containing an invoke function that can invoke the urnary function and a revike function that disables the invoke function.
+	function revocable(identity) {
+		var access = true;
+		var inv = function (input) {
+			if (access) {
+				return identity(input);
+			} else {
+				return undefined;
+			}
+		};
+		var rev = function () {
+			access = false; 
+		};
+		var object = {invoke: inv, revoke: rev};
+		return object;
+	}
+	var rev = revocable(function (a) { return a; }), invoke = rev.invoke;
+	console.log("invoke=" + invoke(7));
+	rev.revoke();
+	console.log("invoke=" + invoke(8));
+
+	function m(value, source) {
+		return {
+			value: value,
+			source: typeof source === 'string' ? source : String(value)
+		};
+	}
+
+	// Write a function addm that takes two m objects and returns an m object
+		// JSON.stringify(addm(m(3), m(4)))
+		// {"value":7,"source":"3+4"}
+		// JSON.stringify(addm(m(1), m(Math.PI, "pi")))
+		// {"value":4.141592653589793,"source":"1+pi"}
+	function addm(first, second) {
+		return m(
+			first.value + second.value,
+			"(" + first.source + "+" + second.source + ")"
+			);
+	}
+	console.log(JSON.stringify(addm(m(3), m(4))));
+	console.log(JSON.stringify(addm(m(1), m(Math.PI, "pi"))));
+
+	// Write a function liftm that takes a binary function and a string and returns a function that acts on m object
+	// var addm = liftm(add, "+");
+	// JSON.stringify(addm(m(3), m(4)))
+	// {"value":7,"source":"(3+4)"}
+	// JSON.stringify(liftm(mul, "*")(m(3), m(4)))
+	// {"value":12,"source":"(3*4)"}
+	function liftm(operation, operator) {
+		return function (firstOperand, secondOperand) {
+			var m1, m2;
+			if (typeof firstOperand === 'number') {
+				firstOperand = m(firstOperand);
+			}
+			if (typeof secondOperand === 'number') {
+				secondOperand = m(secondOperand);
+			}
+			return m(
+				operation(firstOperand.value, secondOperand.value),
+				"(" + firstOperand.source + operator + secondOperand.source + ")"
+				);
+		};
+	}
+	var addm = liftm(add, "+");
+	console.log(JSON.stringify(addm(m(3), m(4))));
+	console.log(JSON.stringify(liftm(mul, "*")(m(3), m(4))));
+
+	// Modify function liftm so that the functions it produces can accept arguments that are either numbers or m objects.
+	// var addm = liftm(add, "+");
+	// JSON.stringify(addm(3, 4));
+	// {"value":7,"source":"(3+4)"}
+	var addm = liftm(add, "+");
+	console.log(JSON.stringify(addm(3, 4)));
+
+	// Write a function addg that adds from many invocations until it sees an empty invocation.
+		// addg()             --> undefined
+		// addg(2)()          --> 2
+		// addg(2)(7)()       --> 9
+		// addg(3)(0)(4)()    --> 7
+		// addg(1)(2)(4)(8)() --> 15
+	function addg(first) {
+		function more (next) {
+			if (next === undefined) {
+				return first;
+			}
+			first += next;
+			return more;
+		}
+		if (first !== undefined) {
+			return more;
+		}
+	}
+	console.log(addg());
+	console.log(addg(2)());
+	console.log(addg(2)(7)());
+	console.log(addg(3)(0)(4)());
+	console.log(addg(1)(2)(4)(8)());
+
+	// Write a function liftg that will take a binary function and apply it to many invocations.
+		// liftg(mul)()				--> undefined
+		// liftg(mul)(3)()			--> 3
+		// liftg(mul)(3)(0)(4)()	--> 0
+		// liftg(mul)(1)(2)(4)(8)() --> 64
+	function liftg(binary) {
+		return function (first) {
+			function more (next) {
+				if (next === undefined) {
+					return first;
+				}
+				first = binary(first, next);
+				return more;
+			}
+			if (first !== undefined) {
+				return more;
+			}
+		}
+	}
+	console.log(liftg(mul)());
+	console.log(liftg(mul)(3)());
+	console.log(liftg(mul)(3)(0)(4)());
+	console.log(liftg(mul)(1)(2)(4)(8)());
+
+	// Write a function arrayg that will build an array from many innvocations.
+		// arrayg()			 --> []
+		// arrayg(3)()		 --> [3]
+		// arrayg(3)(4)(5)() --> [3,4,5]
+	function arrayg(first) {
+		var array = [];
+		function more(next) {
+			if (next !== undefined) {
+				array.push(next);
+				return more;
+			}
+			return array;
+		}
+		if (first !== undefined) {
+			array.push(first);
+			return more;
+		}
+		return array;
+	}
+	console.log(arrayg());
+	console.log(arrayg(3)());
+	console.log(arrayg(3)(4)(5)());
+
+	// Write a function continuize that takes a unary function and returns a function that takes a callback and an argument.
+		// sqrtc = continuize(Math.sqrt);
+		// sqrtc(alert, 81)	-->9
+	function continuize(unary) {
+		return function (callback, arg) {
+			callback(unary(arg));
+		}
+	}
+	var sqrtc = continuize(Math.sqrt);
+	sqrtc(alert, 81);
+
+
+
+</script>
+
+</body>
+
+</html>
